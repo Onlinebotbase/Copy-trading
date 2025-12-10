@@ -156,7 +156,8 @@
      <!-- Global Header (For logged-in pages) -->
     <header id="appHeader" class="header w-full p-3 flex justify-between items-center hidden">
       <div class="flex items-center gap-2">
-           <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%C2%A9%EF%B8%8F%3C/text%3E%3C/svg%3E">
+           <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%C2%A9%EF%B8%8F%3C/text%3E%3C/svg%3E" 
+             alt="logo" class="w-8 h-8">
           <span class="text-lg font-bold">Portfolio</span>
         </div>
     </div>
@@ -216,10 +217,12 @@
         <div id="landingPage" class="page p-4 pt-16">
             <!-- Header (Standalone for landing) -->
             <div class="fixed top-0 left-0 right-0 bg-binance-bg-primary p-4 flex justify-between items-center z-50">
-                <div class="flex items-center gap-2">
-                    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%C2%A9%EF%B8%8F%3C/text%3E%3C/svg%3E">
-                   <h1 class="text-2xl font-extrabold">CT</h1>
-                </div>
+           <div class="flex items-center gap-2">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%C2%A9%EF%B8%8F%3C/text%3E%3C/svg%3E" 
+             alt="logo" class="w-8 h-8">
+        <h1 class="text-2xl font-extrabold">CT</h1>
+         </div>
+    
                 <div class="flex items-center space-x-3">
                     <button onclick="showPage('loginIDPage')" class="text-binance-text-light text-sm font-semibold">Login ID</button>
                     <div class="relative">
